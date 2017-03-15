@@ -1,3 +1,27 @@
-body {
-	background-color: blue;
+.showborder {
+	border: 1px solid black;
 }
+
+
+
+
+
+/*==============LAYOUT================*/
+
+
+#primary {
+	width: 45%;
+	background-color: grey;
+	float: left;
+}
+
+#secondary {
+	width: 45%;
+	background-color: black;
+	color: white;
+	float: right;
+}
+
+/*===========NAVIGATION================*/
+
+/*===========MEDIA QUERIES=============*/
