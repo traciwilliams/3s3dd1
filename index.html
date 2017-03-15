@@ -5,38 +5,61 @@
 	<link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-	<header>
-		<nav id="main-nav" class="showborder">
-			<ul>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#work">Work</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<article>
-		<h1>About Me</h1>
-	</article>
+	<div id="wrapper">
+
+		<header>
+			<nav id="main-nav" class="showborder">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<h1>About Me</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus semper purus eu maximus venenatis. Praesent blandit convallis tincidunt. Integer vitae vehicula nunc. Vestibulum tempus est ornare lacus maximus ornare. Morbi neque purus, rutrum sit amet ligula sit amet, tempor efficitur purus. Cras vel interdum nulla. Maecenas non ipsum in orci euismod molestie a ut ante. Nunc rhoncus mi non porta fermentum. Duis eget quam interdum, lobortis ex nec, molestie erat. Nunc vestibulum posuere sapien, ut rutrum turpis cursus vel. Aliquam lobortis bibendum lacus, at tincidunt enim tempus sit amet.</p>
+		</article>
 
 
-	<section>
-		<h1>My Work</h1>
-		<div id="primary">Screenshot Primary</div>
-		<div id="secondary">Description Secondary</div>
-	</section>
-	
+		<section>
+			<h1>My Work</h1>
+			<div id="primary">Screenshot Primary<br><img src="http://placehold.it/350x150"></div>
+			<div id="secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus semper purus eu maximus venenatis. Praesent blandit convallis tincidunt. Integer vitae vehicula nunc. Vestibulum tempus est ornare lacus maximus ornare. Morbi neque purus, rutrum sit amet ligula sit amet, tempor efficitur purus. Cras vel interdum nulla. Maecenas non ipsum in orci euismod molestie a ut ante. Nunc rhoncus mi non porta fermentum. Duis eget quam interdum, lobortis ex nec, molestie erat. Nunc vestibulum posuere sapien, ut rutrum turpis cursus vel. Aliquam lobortis bibendum lacus, at tincidunt enim tempus sit amet.</div>
+		</section>
+		<footer class="showborder">
+			<small><a href="#">More info</a></small>
+		</footer>
 
-	<section>
-		<h1>Contact Me</h1>
-		<div id="primary">Form Primary</div>
-		<div id="secondary">Social Media Secondary</div>
-	</section>
-	
-	<hr>
-	<footer class="showborder">
-		<small>Created by Traci Williams</small>
-	</footer>
+		<section>
+			<div id="primary">Screenshot Primary<br><img src="http://placehold.it/350x150"></div>
+			<div id="secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus semper purus eu maximus venenatis. Praesent blandit convallis tincidunt. Integer vitae vehicula nunc. Vestibulum tempus est ornare lacus maximus ornare. Morbi neque purus, rutrum sit amet ligula sit amet, tempor efficitur purus. Cras vel interdum nulla. Maecenas non ipsum in orci euismod molestie a ut ante. Nunc rhoncus mi non porta fermentum. Duis eget quam interdum, lobortis ex nec, molestie erat. Nunc vestibulum posuere sapien, ut rutrum turpis cursus vel. Aliquam lobortis bibendum lacus, at tincidunt enim tempus sit amet.</div>
+		</section>
+		<footer class="showborder">
+			<small><a href="#">More info</a></small>
+		</footer>
 
-	<script src="scripts/app.js"></script>
+
+		<section>
+			<h1>Contact Me</h1>
+			<div id="primary2">
+			<form method="post" action="">
+				<label>Name:<input type="text" name="name" id="name"><br>
+				<label>Email:<input type="email" name="email" id="email"><br>	
+				<label>Comments:<textarea rows="4" cols="50" name="comment">Enter text here...</textarea>
+				<button>Submit</button>
+			</form>
+			</div>
+			<div id="secondary2">Social Media Secondary</div>
+		</section>
+		
+		
+		<footer id="mainfooter" class="showborder">
+			<small>Created by Traci Williams</small>
+		</footer>
+
+		<script src="scripts/app.js"></script>
+
+	</div><!--ending wrapper-->
 </body>
 </html>
