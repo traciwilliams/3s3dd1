@@ -1,17 +1,62 @@
-.showborder {
-	border: 1px solid black;
-}
+// .showborder {
+// 	border: 1px solid black;
+// }
 
 
 body {
-	background-color: grey;
+	font-family: 'Exo', sans-serif;
+	color: white;
 }
 
 #wrapper {
+	width: 400px;
 	margin: 0 auto;
+	//background-color: black;
 }
 
+/*=============CONTAINERS=============*/
 
+#first-container {
+	width: 100%;
+	height: 50px;
+	//padding: 20px;
+	margin: 20px 10px 0 10px;
+	background-color: yellow;
+}
+
+#second-container {
+	width: 100%;
+	height: 350px;
+	//padding: 20px;
+	margin: 20px 10px 0 10px;
+	background-color: purple;
+
+}
+
+#third-container {
+	width: 100%;
+	height: 350px;
+	//padding: 20px;
+	margin: 20px 10px 0 10px;
+	background-color: coral;
+}
+
+#fourth-container {
+	width: 100%;
+	height: 350px;
+	//padding: 20px;
+	margin: 100px 10px 0 10px;
+	background-color: grey;
+}
+
+#fifth-container {
+	width: 100%;
+	height: 20px;
+	//padding: 20px;
+	margin: 10px 10px 0 10px;
+	clear: both;
+	background-color: grey;
+}
 /*==============LAYOUT================*/
 
 
@@ -83,8 +128,43 @@ body {
 
 }
 
+/*===========FORM================*/
+
+
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+  border-radius: 5px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+textarea {
+  border-radius: 5px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+/*=========SOCIAL MEDIA=============*/
+
 /*===========FOOTER================*/
-footer {
+// footer {
+// 	clear: both;
+// 	width: 100%;
+// 	padding: 5px;
+// 	margin: 0;
+// }
+#mainfooter,
+#subfooter {
 	clear: both;
 }
 
@@ -95,6 +175,12 @@ footer {
     body {
         background-color: lightgrey;
     }
+
+
+#wrapper {
+	width: 1200px;
+	//margin: 0 auto;
+}    
 
 #primary {
 	width: 30%;
@@ -110,7 +196,7 @@ footer {
 	margin: 0;
 }
 #primary2 {
-	width: 50%;
+	width: 70%;
 	padding: 0;
 	margin: 0;
 	//background-color: black;
@@ -118,7 +204,7 @@ footer {
 }
 
 #secondary2 {
-	width: 50%;
+	width: 30%;
 	padding: 0;
 	margin: 0;
 }
